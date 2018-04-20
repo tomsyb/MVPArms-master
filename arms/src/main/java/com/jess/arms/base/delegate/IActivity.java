@@ -60,6 +60,8 @@ public interface IActivity {
      */
     void setupActivityComponent(@NonNull AppComponent appComponent);
 
+
+    //---------------------------------------------------------------------下完
     /**
      * 是否使用 {@link EventBus}
      *
