@@ -34,7 +34,6 @@ import com.jess.arms.integration.IRepositoryManager;
  */
 public class BaseModel implements IModel, LifecycleObserver {
     protected IRepositoryManager mRepositoryManager;//用于管理网络请求层, 以及数据缓存层
-
     public BaseModel(IRepositoryManager repositoryManager) {
         this.mRepositoryManager = repositoryManager;
     }
